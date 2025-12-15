@@ -1,8 +1,9 @@
+# заголовки для HTTP-запроса, указывающие на то, что тело запроса будет в формате JSON
 headers = {
     "Content-Type": "application/json"
 }
 
-
+# данные еля для создания нового заказа системе
 order_body = {
     "firstName": "Naruto",
     "lastName": "Uchiha",
